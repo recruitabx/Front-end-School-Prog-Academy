@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+form{
+	width: 1200px;
+	margin: auto;
+}
+.form__body{
+    display: flex;
+    flex-direction: column;
+}
+.form__item{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.form__itemText{
+    width: 15%;
+    text-align: right;
+    margin-right: 15px;
+}
+select{
+    width: 165.5px;
+    border-color: blue;
+}
+input{
+    border-width: 1px;
+    border-color: blue;
+}
+input[type="text-full"]{
+    width: 400px;
+    height: 150px;
+}
+input[type="text-spam"]{
+    width: 83px;
+    height: 19px;
+}
+img{
+    border: 1px solid #0000FF;
+    margin:0 10px;
+}
+input[type="submit"]{
+    width: 90px;
+    margin-left: 195px;
+}

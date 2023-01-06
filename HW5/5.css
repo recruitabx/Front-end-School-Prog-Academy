@@ -1,0 +1,82 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+form{
+    width: 300px;
+	margin: auto;
+}
+.form{
+    width: 300px;
+    background-color: gainsboro;
+}
+.form-header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    padding-left: 20px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.form-item{
+    display: flex;
+    margin-top: 15px;
+}
+.form-name{
+    width: 30%;
+    margin-left: 20px;
+}
+input[type="text-mail"]{
+    border-color: gray;
+    border-width: 1px;
+    height: 20px;
+}
+.form-item>i{
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 3px;
+    border-left: 1px solid gray;
+    padding-left: 10px;
+    color: gray;
+}
+a{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+input[type="checkbox"]{
+    margin-left: 110px;
+
+}
+label{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.form-item-last{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.form-footer{
+    border-top: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 70px;
+}
+.form-footer>input{
+    border-width: 0px;
+    color: aliceblue;
+    border-radius: 0px;
+    margin-right: 25px;
+    width: 70px;
+    height: 30px;
+}
+.register{
+    background-color: dimgray;
+}
+.login{
+    background-color: rgb(91, 91, 255);
+}
