@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    width: 100vw;
+    height: 50vh;  
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h1,h2{
+    text-align: center;
+    font-family: 'Passions Conflict', cursive;
+}
+h1{
+    height: 15vh;
+    width: 100vw;
+    background-color: rgba(255,255,255, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 96px;
+}
+.header-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.header-card{
+    background-color: rgba(136, 136, 136, 0.5);
+    height: 25vh;
+    width: 25vw;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0 rgb(17, 17, 17);
+}
+h2{
+    font-size: 36px;
+    margin: 20px 0;
+}
+h2,.header-card>p{
+    color:white;
+}
+p{
+    text-align: justify;
+    margin: 0 10px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 36px;
+    margin: 20px 10px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer-item:nth-child(1){
+    width: 60vw;
+}
+.footer-item>p{
+    margin-top: 20px;
+}
+.footer-socials{
+    display: flex;
+}
