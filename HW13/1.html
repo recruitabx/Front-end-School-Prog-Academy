@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var cities = ['Kyiv','New York','Berlin','Paris','Rome'];
+        document.write('Original: <br>' + cities + '<br>');
+        var new_cities1=cities.join(' and ');
+        document.write('Method Join: <br>' + new_cities1 + '<br>');  
+        var new_cities2=cities.concat('London');
+        document.write('Method Concat: <br>' + new_cities2 + '<br>');
+        var new_cities3=cities.reverse();
+        document.write('Method Reverse: <br>' + new_cities3 + '<br>');
+        var new_cities4=cities.slice(1,-1);
+        document.write('Method Slice: <br>' + new_cities4 + '<br>');
+        var new_cities5=cities.splice(2,2);
+        document.write('Method Splice: <br>' + new_cities5 + '<br>');
+        var new_cities6=cities.sort();
+        document.write('Method Sort: <br>' + new_cities6 + '<br>');
+        var new_cities7=cities.push('Warsaw');
+        document.write('Method Push: <br>' + cities + '\n arr length:' + new_cities7 + '<br>');
+        var new_cities8=cities.pop();
+        document.write('Method Pop: <br>' + cities + '\n arr deleted:' + new_cities8 + '<br>');
+        var new_cities9=cities.unshift('Oslo');
+        document.write('Method Unshift: <br>' + cities + '\n arr length:' + new_cities9 + '<br>');
+        var new_cities10=cities.shift();
+        document.write('Method Shift: <br>' + cities + '\n arr deleted:' + new_cities10 + '<br>');
+
+
+
+    </script>
+</body>
+</html>

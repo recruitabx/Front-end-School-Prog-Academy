@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Необходимо получить предпоследний элемент из массива month и вывести его на экран. -->
+    <script>
+        var month = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+        document.write(month[month.length-2] + "<br>");
+        document.write(month[10] + "<br>");
+        var del = month.splice(10,1);
+        document.write(del);
+    </script>
+</body>
+</html>

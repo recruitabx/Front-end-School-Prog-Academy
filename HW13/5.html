@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Создать программу, выполняющую вставку элемента в массив после элемента, значение которого укажет пользователь. -->
+    <script>
+        let arr = [123,566,853,-456,12,0,873];
+        document.write('Original array: ' + arr);
+        let element = +prompt('Which element we will create?');
+        let elementPosition = +prompt('After which element paste?');
+        arr.splice(elementPosition, 0, element);
+        document.write(arr);
+    </script>
+</body>
+</html>
