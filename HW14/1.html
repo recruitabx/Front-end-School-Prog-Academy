@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var operand1 = +prompt('input operand1');
+        var operand2 = +prompt('input operand2');
+        var sign = prompt('input sign');
+        function calculate(operand1, operand2, sign){
+            if(sign == "+"){
+                var result = operand1 + operand2;
+            }
+            else if(sign == "-"){
+                var result = operand1 - operand2;
+            }
+            else if(sign == "*"){
+                var result = operand1 * operand2;
+            }
+            else if(sign == "/"){
+                var result = operand1 / operand2;
+            }
+            return result;
+        }
+        document.write("Result is: " + calculate(operand1, operand2, sign));
+    </script>
+</body>
+</html>

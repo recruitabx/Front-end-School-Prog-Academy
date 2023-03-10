@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript">
+    var a = +prompt('Choose your option (number): rock(1), scissors(2), paper(3)');
+
+    function game(a){
+    var b = Math.random();
+    console.log(b);
+    if(b <= 0.34){
+        let computerChoice = "rock";
+        console.log(computerChoice);
+    }
+    else if(0.34 < b && b <= 0.67){
+        let computerChoice = "scissors";
+        console.log(computerChoice);
+    }
+    else if(b > 0.67){
+        let computerChoice = "paper";
+        console.log(computerChoice);
+    }
+    if(a == 1 && b <= 0.34){
+        let result = "Tie"
+        return result;
+    }
+    else if(a == 2 && 0.34 < b && b <= 0.67){
+        let result = "Tie"
+        return result;
+    }
+    else if(a == 3 && b > 0.67){
+        let result = "Tie"
+        return result;
+    }
+    else if(a == 1 && 0.34 < b && b <= 0.67){
+        let result = "You won";
+        return result;
+    }
+    else if(a == 1 && b > 0.67){
+        let result = "Computer won";
+        return result;
+    }
+    else if(a == 2 && b <= 0.34){
+        let result = "Computer won";
+        return result;
+    }
+    else if(a == 2 && b > 0.67){
+        let result = "You won";
+        return result;
+    }
+    else if(a == 3 && b <= 0.34){
+        let result = "You won";
+        return result;
+    }
+    else if(a == 3 && 0.34 < b && b <= 0.67){
+        let result = "Computer won";
+        return result;
+    }
+    }
+    document.write("Result: " + game(a));
+    
+    </script>
+</head>
+<body>
+</body>
+</html>
